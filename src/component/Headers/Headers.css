@@ -1,5 +1,6 @@
 .header {
-  border: 5px solid grey;
+  border-radius: 10px;
+  margin-bottom: 30px;
   background-color: aqua;
   height: 50px;
   display: flex;

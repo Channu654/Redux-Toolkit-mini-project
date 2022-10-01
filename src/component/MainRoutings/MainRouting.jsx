@@ -6,11 +6,14 @@ import MovieDetails from '../MovieDetails/MovieDetails';
 import PageNotFound from '../PageNoteFound/PageNotFound';
 
 const MainRouting = () => {
+  // imdbID
+
   return (
     <div>
-      <Headers /><Routes>
+      <Headers />
+      <Routes>
         <Route path='/' element={<Home />} />
-        <Route path='/movie/:imbdId' element={<MovieDetails />} />
+        <Route path='/movie/:imdbID' element={<MovieDetails />} />
         <Route path='/pagenotfound' element={<PageNotFound />} />
       </Routes>
     </div>

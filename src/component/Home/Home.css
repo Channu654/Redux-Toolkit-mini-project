@@ -1,4 +1,15 @@
 .movies {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  transition: all 0.3s;
+}
+
+.movies img{
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: all 0.3s;
+}
+
+.show {
+  margin-right: 500px;
 }
