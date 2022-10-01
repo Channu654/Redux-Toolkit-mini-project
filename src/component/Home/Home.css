@@ -2,6 +2,7 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   transition: all 0.3s;
+  margin-top: 100px;
 }
 
 .movies img{

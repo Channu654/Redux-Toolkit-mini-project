@@ -5,14 +5,12 @@ import { Link } from 'react-router-dom';
 
 import {
   fetchMoviesAsynch,
-  fetchSeriesAsynch,
   getAllMovies,
-  getAllSeries,
 } from '../../features/Movies/MoviesSlice';
-import Footer from '../footer/Footer';
+
 import MovieDetails from '../MovieDetails/MovieDetails';
 // import MovieDetails from '../MovieDetails/MovieDetails';
-import PageNotFound from '../PageNoteFound/PageNotFound';
+
 import Show from '../shows/Show';
 import './Home.css';
 
@@ -28,6 +26,7 @@ const Home = () => {
 
   return (
     <>
+      <div></div>
       <div className='movies'>
         {state?.Search?.map((item) => {
           return (

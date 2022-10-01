@@ -21,8 +21,8 @@ const MovieDetails = () => {
   return (
     <div>
       <div className='details'>
-        <img src={state?.payload.Poster} alt='' />
-        <h1> {state.payload.Title}</h1>
+        <img src={state?.payload?.Poster} alt='' />
+        <h1> {state.payload?.Title}</h1>
       </div>
       <div></div>
     </div>

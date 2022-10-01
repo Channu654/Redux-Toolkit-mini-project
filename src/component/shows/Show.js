@@ -1,4 +1,3 @@
-import axios from 'axios';
 import React from 'react';
 import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
@@ -8,9 +7,8 @@ import {
   fetchSeriesAsynch,
   getAllSeries,
 } from '../../features/Movies/MoviesSlice';
-import Footer from '../footer/Footer';
+
 // import MovieDetails from '../MovieDetails/MovieDetails';
-import PageNotFound from '../PageNoteFound/PageNotFound';
 
 const Show = () => {
   const series = useSelector(getAllSeries);
@@ -35,8 +33,6 @@ const Show = () => {
           </div>
         );
       })}
-      <PageNotFound />
-      <Footer />
     </div>
   );
 };
